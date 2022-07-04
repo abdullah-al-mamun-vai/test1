@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-area {
+    background-image: url("assest/img/top-banner.png");
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.half-area {
+    width: 50%;
+    padding: 2% 40px;
+    ;
+}
+
+.half-area h1 {
+    text-transform: uppercase;
+    line-height: 90px;
+    font-size: 40px;
+    ;
+}
+
+.button-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 5px;
+
+}
+
+.title-block {
+    display: block;
+}
+
+.title-color {
+    color: orange;
+}
+
+.half-area img {
+    width: 80%;
+    ;
+}
+
+
+
+.dream-area {
+    display: flex;
+    background-image: url("assest/img/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.box-area {
+    display: flex;
+    padding: 50px 5%;
+}
+
+.experience-area {
+    background-image: url("assest/img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-area h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.half-box {
+    box-shadow: 10px 6px 40px #000;
+    margin: 0px 20px;
+    padding: 5px 20px;
+    ;
+}
+
+.half-box h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.box1 {
+    border-left: 5px solid blue;
+}
+
+.box2 {
+    border-left: 5px solid lightsalmon;
+}
