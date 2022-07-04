@@ -91,3 +91,44 @@ body {
 .box2 {
     border-left: 5px solid lightsalmon;
 }
+
+footer {
+    background-image: url("assest/img/top-banner.png");
+}
+
+footer ul {
+    list-style: none;
+    padding: 70px 30px;
+    margin: 0 auto;
+    background: rgb(47, 41, 80);
+    width: 50%;
+    text-align: center;
+}
+
+footer ul li {
+    margin-top: 20px;
+}
+
+footer ul li input {
+    background-color: transparent;
+    border: 1px solid greenyellow;
+    width: 45%;
+    height: 30px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+footer ul li input:focus {
+    outline: none;
+    width: 50%;
+}
+
+footer ul li input[type="submit"] {
+    width: 25%;
+    transition: .4s;
+}
+
+footer ul li input[type="submit"]:focus {
+    width: 30%;
+    background-color: pink;
+}
